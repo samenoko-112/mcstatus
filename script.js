@@ -4,6 +4,8 @@
 async function getServerStatus() {
     // 入力フィールドからサーバーアドレスを取得
     const serverAddress = document.getElementById('serverAddress').value;
+
+    
     
     // API URLの構築
     const url = `https://api.mcsrvstat.us/2/${serverAddress}`;
